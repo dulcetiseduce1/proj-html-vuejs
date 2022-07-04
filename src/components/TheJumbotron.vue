@@ -7,7 +7,7 @@
       <P>PROFESSIONAL SERVICE WITH QUALITY AND COSTUMER SATISFACTION</P>
     </div>
   </div>
-  <div class="o-quote">
+  <div class="jumbo-quote">
     <a href="#">
       <font-awesome-icon icon="fa-regular fa-paper-plane" />
       <p>GET A FREE QUOTE ONLINE NOW!</p>
@@ -48,7 +48,7 @@ export default {
     }
   }
 }
-.o-quote {
+.jumbo-quote {
   width: 100%;
   height: 110px;
   background-color: #1775bf;
