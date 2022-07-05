@@ -7,10 +7,12 @@
     <TheJumbotron/>
     <TheInfoSection/>
     <TheJumbotron2/>
+    <TheTestimonialsQuote/>
     <TheFooter
       :footerLinks="TheFooterLinks"
       :footerPosts="TheFooterPosts"
       :footerSocial="TheSocials"/>
+    
   </div>
 </template>
 
@@ -19,6 +21,7 @@ import TheHeader from './components/TheHeader.vue'
 import TheJumbotron from './components/TheJumbotron.vue'
 import TheInfoSection from './components/TheInfoSection.vue'
 import TheJumbotron2 from './components/TheJumbotron2.vue'
+import TheTestimonialsQuote from './components/TheTestimonialsQuote.vue'
 import TheFooter from './components/TheFooter.vue'
 
 export default {
@@ -28,6 +31,7 @@ export default {
     TheJumbotron,
     TheInfoSection,
     TheJumbotron2,
+    TheTestimonialsQuote,
     TheFooter
   },
 
