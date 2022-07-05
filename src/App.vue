@@ -5,19 +5,22 @@
       :headerLinks="myLinks"
       />
     <TheJumbotron/>
+    <TheInfoSection/>
   </div>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue'
 import TheJumbotron from './components/TheJumbotron.vue'
+import TheInfoSection from './components/TheInfoSection.vue'
 
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheJumbotron
+    TheJumbotron,
+    TheInfoSection
   },
 
 data(){
