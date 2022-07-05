@@ -9,7 +9,6 @@
           </p>
         </div>
 
-        <!-- My Socials -->
         <ul class="socials">
           <li v-for="(item, i) in headerSocial" :key="i">
             <a href="#">
@@ -26,7 +25,6 @@
           <img src="../assets/img/avada-movers-logo.png" alt="" />
         </div>
 
-        <!-- My Links -->
         <ul class="links">
           <li
             v-for="(item, k) in headerLinks"
