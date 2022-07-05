@@ -12,9 +12,10 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faPaperPlane, faFacebookF, faTwitter, faInstagram, faYoutube, faPhoneFlip, faAngleUp)
+library.add(faPaperPlane, faFacebookF, faTwitter, faInstagram, faYoutube, faPhoneFlip, faAngleUp, faAngleRight)
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

@@ -1,11 +1,16 @@
 <template>
   <div id="app">
     <TheHeader
-      :headerSocial="mySocials"
-      :headerLinks="myLinks"
+      :headerSocial="TheSocials"
+      :headerLinks="TheLinks"
       />
     <TheJumbotron/>
     <TheInfoSection/>
+    <TheJumbotron2/>
+    <TheFooter
+      :footerLinks="TheFooterLinks"
+      :footerPosts="TheFooterPosts"
+      :footerSocial="TheSocials"/>
   </div>
 </template>
 
@@ -13,19 +18,22 @@
 import TheHeader from './components/TheHeader.vue'
 import TheJumbotron from './components/TheJumbotron.vue'
 import TheInfoSection from './components/TheInfoSection.vue'
-
+import TheJumbotron2 from './components/TheJumbotron2.vue'
+import TheFooter from './components/TheFooter.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeader,
     TheJumbotron,
-    TheInfoSection
+    TheInfoSection,
+    TheJumbotron2,
+    TheFooter
   },
 
 data(){
     return{
-      mySocials: [
+      TheSocials: [
         {
           social: "fa-brands fa-facebook-f"
         },
@@ -40,7 +48,7 @@ data(){
         }
       ],
 
-      myLinks: [
+      TheLinks: [
         {
           link: "Home",
           active: true
@@ -66,6 +74,47 @@ data(){
           active: false
         },
       ],
+
+      TheFooterLinks: [
+        {
+          link: "Home",
+          active: true
+        },
+        {
+          link: "Rates",
+          active: false
+        },
+        {
+          link: "Testimonials",
+          active: false
+        },
+        {
+          link: "Blog",
+          active: false
+        },
+        {
+          link: "Free Quote",
+          active: false
+        },
+      ],
+
+      TheFooterPosts: [
+        {
+          link: "Heading Out To College?",
+        },
+        {
+          link: "Moving Your Business?",
+        },
+        {
+          link: "Outstanding Quality",
+        },
+        {
+          link: "Cost Of Moving",
+        },
+        {
+          link: "Best Moving Tips",
+        },
+      ]
     }
 }
 }
